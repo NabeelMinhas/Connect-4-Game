@@ -1,6 +1,10 @@
 # Connect Four Game
 
-This is a simple Connect Four game built as a Single Page Application (SPA) using React, Vite, and Zustand for state management.
+This is a simple Connect Four game built as a Single Page Application (SPA) using React, TypeScript, Vite, and Zustand for state management.
+
+# Demo Video
+
+https://www.loom.com/share/9144bcfc19e544c9b47c1419df186414?sid=dafbe124-d378-4c76-b71e-82ae70ca6e39
 
 ## Table of Contents
 
@@ -51,6 +55,7 @@ Connect Four is a two-player game in which the players take turns dropping color
 ## Technologies Used
 
 - React
+- TypeScript
 - Vite
 - Zustand
 - TailwindCSS
