@@ -2,19 +2,19 @@
 
 This is a simple Connect Four game built as a Single Page Application (SPA) using React, TypeScript, Vite, and Zustand for state management.
 
-# Demo Video
-
-https://www.loom.com/share/9144bcfc19e544c9b47c1419df186414?sid=dafbe124-d378-4c76-b71e-82ae70ca6e39
-
 ## Table of Contents
 
+- [Demo Video](#demo-video)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Running the App](#running-the-app)
 - [Game Instructions](#game-instructions)
 - [Technologies Used](#technologies-used)
-- [License](#license)
+
+## Demo Video
+
+https://www.loom.com/share/9144bcfc19e544c9b47c1419df186414?sid=dafbe124-d378-4c76-b71e-82ae70ca6e39
 
 ## Getting Started
 
@@ -22,7 +22,7 @@ https://www.loom.com/share/9144bcfc19e544c9b47c1419df186414?sid=dafbe124-d378-4c
 
 Before running the app, ensure you have the following installed on your local machine:
 
-- Node.js
+- Node.js (Version 10.8.2)
 - npm (Node Package Manager)
 
 ### Installation
