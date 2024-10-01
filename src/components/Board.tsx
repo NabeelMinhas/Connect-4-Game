@@ -15,6 +15,8 @@ const Board = ({
     return (
       <div
         key={`${row}-${column}`}
+        role="presentation"
+        data-testid={`cell-${row}-${column}`}
         className={`w-16 h-16 border border-black rounded-full my-2 mx-1 ${color}`}
       ></div>
     );
@@ -31,6 +33,7 @@ const Board = ({
   const renderClickArrow = (column: number) => {
     return (
       <div
+        id={column.toString()}
         className="rotate-180 hover:text-blue-400 cursor-pointer"
         onClick={() => onClick(column)}
       >
@@ -40,7 +43,7 @@ const Board = ({
   };
 
   return (
-    <div className="space-y-2">
+    <div className="space-y-2" data-testid="board">
       <div className="flex justify-around">
         {board[0].map((_cell, index) => renderClickArrow(index))}
       </div>
