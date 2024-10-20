@@ -43,6 +43,20 @@ npm run dev
 
 This will start the development server and open the app in your default web browser.
 
+## Running the Test cases
+
+To run the unit test cases, use the following command:
+
+```
+npm run test
+```
+
+To run the end to end test cases, use the following command:
+
+```
+npx cypress open
+```
+
 ## Game Instructions
 
 Connect Four is a two-player game in which the players take turns dropping colored discs from the top into a grid. The objective of the game is to be the first to form a horizontal, vertical, or diagonal line of four discs of your color.
